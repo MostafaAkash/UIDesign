@@ -7,7 +7,8 @@
     >
         <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="0dp"
+            android:layout_weight="1">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -25,12 +26,43 @@
                 <ListView
                     android:id="@+id/listView_id_for_second_table"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"></ListView>
+                    android:layout_height="wrap_content"
+                    ></ListView>
+
 
             </LinearLayout>
 
-
         </HorizontalScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        >
+        <Button
+            android:background="@drawable/add_shape_add_button"
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:text="Add new Member"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            ></Button>
+        <Button
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:textStyle="bold"
+            android:layout_marginLeft="130dp"
+            android:layout_marginBottom="30dp"
+            android:text="Submit For Approval"
+            android:textAllCaps="false"
+            android:background="@drawable/submit_button_shape"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            ></Button>
+    </RelativeLayout>
+
 
 
 </LinearLayout>
