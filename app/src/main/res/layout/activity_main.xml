@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/first_button_main_ac"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="First Table"></Button>
+
+        <Button
+            android:id="@+id/second_button_main_ac"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Second Table"></Button>
+
+        <Button
+            android:id="@+id/third_button_main_ac"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Third Table"></Button>
+
+    </LinearLayout>
+
+
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/black"
+        >
+
+    </LinearLayout>-->
+
+    <FrameLayout
+        android:id="@+id/frameLayout_id_main_ac"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</LinearLayout>
+

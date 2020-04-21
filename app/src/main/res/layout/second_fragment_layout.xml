@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+
+    >
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <include
+                    android:id="@+id/branchRowId_second_table"
+                    layout="@layout/branch_row_second_table"/>
+                <include
+                    android:id="@+id/dateRowId_second_table"
+                    layout="@layout/daterow_second_table"/>
+                <ListView
+                    android:id="@+id/listView_id_for_second_table"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    ></ListView>
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+</LinearLayout>
