@@ -19,15 +19,18 @@
                 <include
                     android:id="@+id/dateRowId_second_table"
                     layout="@layout/daterow_second_table"/>
+                <include android:id="@+id/table_header_second"
+                    layout="@layout/tableheader"></include>
+
                 <ListView
                     android:id="@+id/listView_id_for_second_table"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    ></ListView>
+                    android:layout_height="wrap_content"></ListView>
 
             </LinearLayout>
 
 
         </HorizontalScrollView>
+
 
 </LinearLayout>

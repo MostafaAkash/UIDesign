@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="80dp"
-    app:cardBackgroundColor="#DD99FF"
+    app:cardBackgroundColor="#F6D5D6"
     app:cardCornerRadius="5dp"
     app:cardMaxElevation="2dp">
 
@@ -18,7 +18,7 @@
 
             <TextView
                 android:id="@+id/date_textViewId_date_row"
-                android:layout_width="150dp"
+                android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:gravity="center|left"
                 android:layout_marginLeft="25dp"
